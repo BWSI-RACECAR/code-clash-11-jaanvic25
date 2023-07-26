@@ -40,15 +40,12 @@ class Solution:
             count = 1
             for i in range(len(arr)-1):
                 if arr[i + 1]> arr[i]:
+                    if count == 1 and i != 0:
+                        count +=2
                     count += 1
                 else:
                     count = 1
-            return count   
-            #type arr: list of int
-            #return type: int
-            
-            #TODO: Write code below to return an int with the solution to the prompt.
-            pass
+            return count  
 
 def main():
     array = input().split(" ")
