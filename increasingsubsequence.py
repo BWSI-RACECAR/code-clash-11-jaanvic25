@@ -44,7 +44,8 @@ class Solution:
                     if count == 1 and i != 0:
                         count +=2
                     count += 1
-                else:
+                #else:
+        
                     #temp = count
                     #count = 1
             if temp > count:
