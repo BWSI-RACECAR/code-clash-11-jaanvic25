@@ -47,7 +47,10 @@ class Solution:
                 else:
                     temp = count
                     count = 1
-            return temp  
+            if temp > count:
+                return temp   
+            else:
+                return count 
 
 def main():
     array = input().split(" ")
