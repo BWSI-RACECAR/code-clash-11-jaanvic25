@@ -45,7 +45,7 @@ class Solution:
                         count +=2
                     count += 1
                 else:
-                    temp = count
+                    #temp = count
                     #count = 1
             if temp > count:
                 return temp   
