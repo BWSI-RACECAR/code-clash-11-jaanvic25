@@ -46,7 +46,7 @@ class Solution:
                     count += 1
                 else:
                     temp = count
-                    count = 1
+                    #count = 1
             if temp > count:
                 return temp   
             else:
