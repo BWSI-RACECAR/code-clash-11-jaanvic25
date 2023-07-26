@@ -40,18 +40,13 @@ class Solution:
             count = 1
             temp = 0
             for i in range(len(arr)-1):
-                if arr[i + 1]> arr[i]:
-                   # if count == 1 and i != 0:
+                if arr[i + 1]> temp:
+                    temp = arr[i]
+                    #if count == 1 and i != 0:
                         #count +=2
                     count += 1
-                #else:
-        
-                    #temp = count
-                    #count = 1
-            if temp > count:
-                return temp   
-            else:
-                return count 
+
+            return count
 
 def main():
     array = input().split(" ")
