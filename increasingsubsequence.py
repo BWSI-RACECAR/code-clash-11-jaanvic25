@@ -41,8 +41,8 @@ class Solution:
             temp = 0
             for i in range(len(arr)-1):
                 if arr[i + 1]> arr[i]:
-                    if count == 1 and i != 0:
-                        count +=2
+                   # if count == 1 and i != 0:
+                        #count +=2
                     count += 1
                 #else:
         
